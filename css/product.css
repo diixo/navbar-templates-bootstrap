@@ -1,0 +1,120 @@
+:root {
+  --cadetblue: #5F9EA0;
+
+  --my-primary: #569EB8;
+  --my-1-hover: #468AA3;
+
+  /* chat-gpt style primary button colors */
+  --my-primary-hover:  #4A8FA6;
+  --my-primary-active: #3F7F93;
+  --my-primary-text:   #FFFFFF;
+
+
+  --my-primary-dark: #607d8b;
+  --my-primary-black: #455A64;
+
+  /*
+  --bs-sky-v1: #2FA4A9;
+  --bs-sky-hover-v1: #238C90;
+
+  --bs-sky-v2: #0086B8;
+  --bs-sky-hover-v2: #0076A8;
+  */
+
+  /* gpt colors generated for green button */
+  --bd-green-accent: #A6E22E;
+  --bd-green-accent-rgb: 166, 226, 46;
+  --bd-green-accent-hover: #8CC82C;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #b0b6ba;
+  border-radius: 21px;
+  transform: rotate(30deg);
+  z-index: 0;
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e0e2e5;
+}
+
+/* gpt colors generated */
+.btn-accent-green {
+  --bs-btn-font-weight: 500;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-green-accent);
+  --bs-btn-border-color: var(--bd-green-accent);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--bd-green-accent-hover);
+  --bs-btn-hover-border-color: var(--bd-green-accent-hover);
+  --bs-btn-focus-shadow-rgb: var(--bd-green-accent-rgb);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: #7FAE1F;
+  --bs-btn-active-border-color: #7FAE1F;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
