@@ -127,3 +127,7 @@
 .bg-main-dark-extra {
   background-color: #505A64;  /* 80, 90, 100 */
 }
+
+.link-primary-accent {
+  color: #20AED2; /* 32, 174, 210 */
+}
