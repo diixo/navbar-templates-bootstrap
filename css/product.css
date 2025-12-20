@@ -113,8 +113,17 @@
 .flex-equal > * {
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
+}
+
+.bg-main-dark {
+  background-color: #636B73;  /* 99, 107, 115 */
+}
+
+.bg-main-dark-extra {
+  background-color: #505A64;  /* 80, 90, 100 */
 }
