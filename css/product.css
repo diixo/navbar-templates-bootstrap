@@ -131,3 +131,8 @@
 .link-primary-accent {
   color: #20AED2; /* 32, 174, 210 */
 }
+
+/* rewrite original bootstrap */
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px;
+}

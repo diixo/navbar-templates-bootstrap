@@ -1,7 +1,5 @@
-body {
-  padding-bottom: 20px;
-}
 
-.navbar {
-  margin-bottom: 20px;
+/* rewrite original bootstrap */
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px;
 }
