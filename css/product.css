@@ -96,7 +96,7 @@
 }
 
 /* gpt colors generated */
-.btn-accent-green {
+.btn-green-accent {
   --bs-btn-font-weight: 500;
   --bs-btn-color: var(--bs-white);
   --bs-btn-bg: var(--bd-green-accent);
