@@ -1,9 +1,9 @@
 
 /* rewrite original bootstrap */
 .navbar-toggler:focus {
-  box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px var(--white);
 }
 
 .navbar-toggler:hover {
-  box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px var(--white);
 }

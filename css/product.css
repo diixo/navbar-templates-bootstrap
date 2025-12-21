@@ -25,7 +25,6 @@
   --bd-green-accent-rgb: 166, 226, 46;
   --bd-green-accent-hover: #8CC82C;
 
-  --white: #ffffff;
   --bs-primary-accent: #20AED2;
   --bs-sky-hover: #1D9DBD;
   --stable-blue: #1687A3;
@@ -153,9 +152,9 @@
 
 /* rewrite original bootstrap */
 .navbar-toggler:focus {
-  box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px rgba(var(--bd-green-accent-rgb), 0.5);
 }
 
 .navbar-toggler:hover {
-  box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px rgba(var(--bd-green-accent-rgb), 0.5);
 }
