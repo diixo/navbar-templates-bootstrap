@@ -1,5 +1,4 @@
 :root {
-  --cadetblue: #5F9EA0;
 
   --my-primary: #569EB8;
   --my-1-hover: #468AA3;
@@ -25,6 +24,11 @@
   --bd-green-accent: #A6E22E;
   --bd-green-accent-rgb: 166, 226, 46;
   --bd-green-accent-hover: #8CC82C;
+
+  --white: #ffffff;
+  --bs-primary-accent: #20AED2;
+  --bs-sky-hover: #1D9DBD;
+  --stable-blue: #1687A3;
 }
 
 .container {
@@ -105,6 +109,21 @@
   --bs-btn-active-bg: #7FAE1F;
   --bs-btn-active-border-color: #7FAE1F;
 }
+
+
+.btn-primary-accent {
+  --bs-btn-color: var(--white);
+  --bs-btn-bg: var(--bs-primary-accent);
+  --bs-btn-border-color: var(--bs-primary-accent);
+  --bs-btn-hover-color: var(--white);
+  --bs-btn-hover-bg: var(--bs-sky-hover);
+  --bs-btn-hover-border-color: var(--bs-sky-hover);
+  --bs-btn-focus-shadow-rgb: var(--bs-violet-bg);
+  --bs-btn-active-color: var(--white);
+  --bs-btn-active-bg: var(--stable-blue);
+  --bs-btn-active-border-color: var(--stable-blue);
+}
+
 
 /*
  * Extra utilities
