@@ -3,3 +3,7 @@
 .navbar-toggler:focus {
   box-shadow: 0 0 0 2px;
 }
+
+.navbar-toggler:hover {
+  box-shadow: 0 0 0 2px;
+}
