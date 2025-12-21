@@ -2,8 +2,8 @@
 # navbar-templates-bootstrap
 
 
-<div align="left" width="712" height="440">
-  <img src="/imgs/product-1424x880.png">
+<div align="left" width="710" height="400">
+  <img src="/imgs/product-1420x800.png">
 </div>
 
 
