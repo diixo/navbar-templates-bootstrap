@@ -1,13 +1,16 @@
 
 # navbar-templates-bootstrap
 
+Interactive demo: https://diixo.github.io/navbar-templates-bootstrap
+
+<br>
 
 <div align="left" width="710" height="400">
   <img src="/imgs/product-1420x800.png">
 </div>
 
 
-* product.html
+* index.html (**product.html**)
 
 Lean product-focused marketing page with extensive grid and image work.
 
