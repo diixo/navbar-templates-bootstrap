@@ -1,7 +1,7 @@
 
 # navbar-templates-bootstrap
 
-Interactive demo: https://diixo.github.io/navbar-templates-bootstrap
+Demo: https://diixo.github.io/navbar-templates-bootstrap
 
 <br>
 
