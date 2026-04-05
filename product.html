@@ -1,0 +1,185 @@
+<!doctype html>
+
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Product example · Bootstrap v5.3</title>
+
+    <link rel="icon" href="icons/favicon-neo-1.svg" type="image/svg+xml">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/" />
+
+    <script src="assets/js/color-modes.js"></script>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/product.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md sticky-top border-bottom bg-main-dark-extra" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand d-md-none d-inline-flex align-items-center" href="#">
+          <img src="icons/neo-1.svg" width="24" height="24" class="me-2" alt="" title="Product-title" />
+          Aperture
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"
+            aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end bg-main-dark-extra" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header border-bottom border-secondary">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Product</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body justify-content-inbetween">
+            <a class="py-2 d-inline-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+              href="#" aria-label="Product">
+              <img src="icons/neo-1.svg" width="24" height="24" alt="" title="Product-title" />
+            </a>
+            <div>
+              <ul class="navbar-nav flex-grow-1 justify-content-inbetween">
+                <li class="nav-item"><a class="nav-link link-body-emphasis" href="#">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="navbar-fixed.html">Tour</a></li>
+                <li class="nav-item"><a class="nav-link" href="navbars-offcanvas.html">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="navbars.html">Pricing</a></li>
+                <li class="nav-item">
+                  <a class="nav-link d-inline-flex align-items-center gap-1" href="https://github.com/diixo/navbar-templates-bootstrap" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 499.36" role="img" class="navbar-nav-svg" height="16" width="16">
+                      <title>GitHub</title>
+                      <path fill="currentColor" fill-rule="evenodd"
+                        d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z">
+                      </path>
+                    </svg>
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <form class="d-flex mt-3 mt-md-0" role="search">
+              <button class="btn btn-green-accent ms-3 px-4" type="submit">Sign-in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+
+        <div class="hero-content col-md-6 p-lg-5 mx-auto my-5">
+          <h1 class="display-3 fw-bold" style="color: #083040;">Designed for engineers</h1>
+          <h3 class="fw-normal text-muted mb-3">Build anything you want with Aperture</h3>
+
+          <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <a class="icon-link text-decoration-none link-primary-accent" href="#">
+              Learn more
+              <svg class="bi" aria-hidden="true">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+            <button type="submit" class="btn btn-primary-accent px-4">
+              Learn more...
+            </button>
+          </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="background-color: var(--my-primary-dark)">
+          <div class="my-3 py-3 text-white">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="bg-body-tertiary shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+          ></div>
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2 class="display-5">Another headline-2</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-color: var(--my-primary-black)"
+          ></div>
+        </div>
+      </div>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2>Headline-3 (hover)</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-color: var(--my-primary-hover)"
+          ></div>
+        </div>
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 py-3">
+            <h2>Headline-4 (primary)</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; background-color: var(--my-primary);"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <div class="bg-body-secondary pt-4 pb-5">
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-6 col-lg-2 mb-3">
+            <img src="icons/neo-1.svg" width="24" height="24" alt="" title="Product-title" class="d-block mb-2">
+            <small class="d-block mb-3 text-body-secondary">&copy; 2017-2025</small>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+              <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/dist/js/bootstrap.bundle.min.js" class="astro-vvvwv3sm"></script>
+  </body>
+</html>
